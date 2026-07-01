@@ -1,0 +1,21 @@
+# Core numerical / vision packages
+numpy>=1.23
+opencv-python>=4.8
+scipy>=1.10
+
+# Hardware / communication
+pyserial>=3.5
+
+# OCR post-processing
+pyclipper>=1.3
+
+# Notes:
+# The following modules are required on the RDK S100 runtime but are NOT installed via pip:
+# - Hobot.GPIO
+# - hbm_runtime
+# - utils modules from /app/pydev_demo
+#
+# Model files are also not included in this repository:
+# - YOLO .hbm model
+# - PaddleOCR det/rec .hbm models
+# - SmolVLM .gguf / .hbm models
